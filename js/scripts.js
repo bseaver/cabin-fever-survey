@@ -1,12 +1,14 @@
 $(document).ready(function(){
   // [category, categoryQuestion, categoryConclusion]
   var categories = [
-    ["study", "How has snow-mageddon affected your studies? (Check all that apply)", "Snow-mageddon has affected your studies: "]
+    ["study", "How has snow-mageddon affected your studies? (Check all that apply)", "Snow-mageddon has affected your studies: "],
+    ["home", "How has snow-mageddon affected your home / personal life? (Check all that apply)", "Snow-mageddon has affected your personal life: "]
   ];
 
   // [[categories], checkboxValue, checkboxQuestion, checkboxConclusion]
   var checkboxes = [
-    [["study"], "media", "Consuming too much TV, Netflix, Youtube, Social Media etc.", "Media consumption is out of hand."]
+    [["study"], "media", "Are you consuming too much TV, Netflix, Youtube, Social Media etc.", "Media consumption is out of hand."],
+    [["home"], "mate", "Has your bizarre obsessive behavior driven those who live with you crazy?", "Your craziness has infected others."]
   ];
 
   // Get HTML templates for header and checkbox
@@ -31,8 +33,7 @@ $(document).ready(function(){
     checkboxes.forEach(function(checkbox) {
       var checkboxCategories = checkbox[0];
       var checkboxValue = checkbox[1];
-      var checkboxName = checkbox[2];
-      var checkboxQuestion = checkbox[3];
+      var checkboxQuestion = checkbox[2];
 
       // Does this checkbox apply to the category?
       if (checkboxCategories.includes(categoryID)) {
@@ -44,7 +45,6 @@ $(document).ready(function(){
             replace(/checkboxValue/, checkboxValue)
         );
       }
-
     }); // End checkboxes.forEach
 
 
