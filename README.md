@@ -7,28 +7,28 @@
 #### by Benjamin T. Seaver, 1/17/2017
 
 ### Technologies Used:
-* #### HTML, CSS, JS
-* #### Bootstrap
-* #### jQuery
-* #### git
+* HTML, CSS, JS
+* Bootstrap
+* jQuery
+* git
 
 ### Setup:
 
-* #### Clone repository
-* #### Open index.html
+* Clone repository
+* Open index.html
 
 ### See on GitHub.io
 
-* #### [to_do](to_do)
+* [https://bseaver.github.io/cabin-fever-survey/](https://bseaver.github.io/cabin-fever-survey/)
 
 ### Support
 
-* #### None
+* None
 
 ### Copyright
 
-* #### Benjamin T. Seaver 2017
+* Benjamin T. Seaver 2017
 
 ### License
 
-* #### MIT
+* MIT
