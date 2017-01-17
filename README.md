@@ -7,7 +7,7 @@
 #### by Benjamin T. Seaver, 1/17/2017
 
 ### Technologies Used:
-* HTML, CSS, JS
+* HTML, CSS, JavaScript
 * Bootstrap
 * jQuery
 * git
@@ -20,6 +20,10 @@
 ### See on GitHub.io
 
 * [https://bseaver.github.io/cabin-fever-survey/](https://bseaver.github.io/cabin-fever-survey/)
+
+### Known Bugs
+
+* None
 
 ### Support
 
