@@ -14,6 +14,7 @@ $(document).ready(function(){
   // Get HTML templates for header and checkbox
   var headerTemplate = $("#headerTemplate").html();
   var checkboxTemplate = $("#checkboxTemplate").html();
+  var buttonTemplate = $("#buttonTemplate").html();
 
   // Clear out templates in preparation for
   // list of headers and questions
@@ -46,9 +47,15 @@ $(document).ready(function(){
         );
       }
     }); // End checkboxes.forEach
+  }); // End categories.forEach
 
+  // Finally append submit button
+  $("#inputForm").append(buttonTemplate);
 
-
+  // Respond to submit button
+  $("#inputForm").submit(function(event) {
+    event.preventDefault();
+    alert("submit");
   });
 
 }); // End Document Ready
