@@ -5,3 +5,7 @@ body {
 .well {
   background-color: lightyellow;
 }
+
+#outputSection {
+  display: none;
+}
