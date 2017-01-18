@@ -11,7 +11,11 @@ $(document).ready(function(){
   // [[categories], checkboxValue, checkboxQuestion, checkboxConclusion]
   var checkboxes = [
     [["study"], "media", "Are you consuming too much TV, Netflix, Youtube, Social Media etc.", "Media consumption is out of hand."],
-    [["home"], "mate", "Has your bizarre obsessive behavior driven those who live with you crazy?", "Your craziness has infected others."]
+    [["study"], "research", "You discover that you have been researching the name attribute on a checkbox for 2 hours.", "You go too far afield on research."],
+    [["study"], "progress", "After one day, you are still trying to finish one project.", "You really miss the progress you make with pair programming!"],
+    [["home"], "mate", "Has your bizarre obsessive behavior driven those who live with you crazy?", "Your craziness has infected others."],
+    [["home"], "outburst", "Do you find yourself exclaiming or cursing for no apparent reason?", "There is treatment for frequent outbursts."],
+    [["home"], "hygiene", "Are you bathing too much or too little?", "Your hygiene routine is disrupted."]
   ];
 
   // Get HTML templates for header and checkbox
